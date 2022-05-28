@@ -1,0 +1,1314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2019.2 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.   -->
+
+<Project Version="7" Minor="44" Path="D:/cpu_vivado2019/opentitan/opentitan.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="c12745b4fdc34c9ebba59716d535211a"/>
+    <Option Name="Part" Val="xc7a100tfgg484-2"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="CompiledLibDirXSim" Val=""/>
+    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirIES" Val="$PCACHEDIR/compile_simlib/ies"/>
+    <Option Name="CompiledLibDirXcelium" Val="$PCACHEDIR/compile_simlib/xcelium"/>
+    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
+    <Option Name="BoardPart" Val=""/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+    <Option Name="ProjectType" Val="Default"/>
+    <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
+    <Option Name="IPCachePermission" Val="read"/>
+    <Option Name="IPCachePermission" Val="write"/>
+    <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
+    <Option Name="IPUserFilesDir" Val="$PIPUSERFILESDIR"/>
+    <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
+    <Option Name="EnableBDX" Val="FALSE"/>
+    <Option Name="WTXSimLaunchSim" Val="0"/>
+    <Option Name="WTModelSimLaunchSim" Val="0"/>
+    <Option Name="WTQuestaLaunchSim" Val="0"/>
+    <Option Name="WTIesLaunchSim" Val="0"/>
+    <Option Name="WTVcsLaunchSim" Val="0"/>
+    <Option Name="WTRivieraLaunchSim" Val="0"/>
+    <Option Name="WTActivehdlLaunchSim" Val="0"/>
+    <Option Name="WTXSimExportSim" Val="0"/>
+    <Option Name="WTModelSimExportSim" Val="0"/>
+    <Option Name="WTQuestaExportSim" Val="0"/>
+    <Option Name="WTIesExportSim" Val="0"/>
+    <Option Name="WTVcsExportSim" Val="0"/>
+    <Option Name="WTRivieraExportSim" Val="0"/>
+    <Option Name="WTActivehdlExportSim" Val="0"/>
+    <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
+    <Option Name="XSimRadix" Val="hex"/>
+    <Option Name="XSimTimeUnit" Val="ns"/>
+    <Option Name="XSimArrayDisplayLimit" Val="1024"/>
+    <Option Name="XSimTraceLimit" Val="65536"/>
+    <Option Name="SimTypes" Val="rtl"/>
+    <Option Name="SimTypes" Val="bfm"/>
+    <Option Name="SimTypes" Val="tlm"/>
+    <Option Name="SimTypes" Val="tlm_dpi"/>
+    <Option Name="MEMEnableMemoryMapGeneration" Val="TRUE"/>
+    <Option Name="DcpsUptoDate" Val="TRUE"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim/rtl/prim_assert.h">
+        <FileInfo>
+          <Attr Name="IsGlobalInclude" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/top_earlgrey/rtl/top_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/top_earlgrey/rtl/top_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/tlul/rtl/tlul_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/tlul/rtl/tlul_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/aes/rtl/aes_reg_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/aes/rtl/aes_reg_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/aes/rtl/aes.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/aes/rtl/aes.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/aes/rtl/aes_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/aes/rtl/aes_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/aes/rtl/aes_control.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/aes/rtl/aes_control.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/aes/rtl/aes_core.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/aes/rtl/aes_core.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/aes/rtl/aes_key_expand.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/aes/rtl/aes_key_expand.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/aes/rtl/aes_mix_columns.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/aes/rtl/aes_mix_columns.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/aes/rtl/aes_mix_single_column.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/aes/rtl/aes_mix_single_column.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/aes/rtl/aes_reg_top.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/aes/rtl/aes_reg_top.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/aes/rtl/aes_sbox_lut.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/aes/rtl/aes_sbox_lut.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/aes/rtl/aes_shift_rows.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/aes/rtl/aes_shift_rows.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/aes/rtl/aes_sub_bytes.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/aes/rtl/aes_sub_bytes.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/lowrisc_ibex/examples/fpga/artya7-100/rtl/clkgen_xil7series.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/vendor/lowrisc_ibex/examples/fpga/artya7-100/rtl/clkgen_xil7series.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/pulp_riscv_dbg/debug_rom/debug_rom.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/pulp_riscv_dbg/src/dm_pkg.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/pulp_riscv_dbg/src/dm_csrs.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/pulp_riscv_dbg/src/dm_mem.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/pulp_riscv_dbg/src/dm_sba.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/pulp_riscv_dbg/src/dmi_cdc.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/pulp_riscv_dbg/src/dmi_jtag.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/pulp_riscv_dbg/src/dmi_jtag_tap.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/flash_ctrl/rtl/flash_ctrl_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/flash_ctrl/rtl/flash_ctrl_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/flash_ctrl/rtl/flash_ctrl_reg_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/flash_ctrl/rtl/flash_ctrl_reg_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/flash_ctrl/rtl/flash_ctrl.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/flash_ctrl/rtl/flash_ctrl.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/flash_ctrl/rtl/flash_ctrl_reg_top.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/flash_ctrl/rtl/flash_ctrl_reg_top.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/flash_ctrl/rtl/flash_erase_ctrl.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/flash_ctrl/rtl/flash_erase_ctrl.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/flash_ctrl/rtl/flash_mp.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/flash_ctrl/rtl/flash_mp.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/flash_ctrl/rtl/flash_phy.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/flash_ctrl/rtl/flash_phy.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/flash_ctrl/rtl/flash_prog_ctrl.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/flash_ctrl/rtl/flash_prog_ctrl.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/flash_ctrl/rtl/flash_rd_ctrl.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/flash_ctrl/rtl/flash_rd_ctrl.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/gpio/rtl/gpio_reg_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/gpio/rtl/gpio_reg_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/gpio/rtl/gpio.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/gpio/rtl/gpio.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/gpio/rtl/gpio_reg_top.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/gpio/rtl/gpio_reg_top.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/hmac/rtl/hmac_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/hmac/rtl/hmac_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/hmac/rtl/hmac_reg_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/hmac/rtl/hmac_reg_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/hmac/rtl/hmac.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/hmac/rtl/hmac.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/hmac/rtl/hmac_core.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/hmac/rtl/hmac_core.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/hmac/rtl/hmac_reg_top.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/hmac/rtl/hmac_reg_top.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/lowrisc_ibex/rtl/ibex_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/vendor/lowrisc_ibex/rtl/ibex_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/lowrisc_ibex/rtl/ibex_alu.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/vendor/lowrisc_ibex/rtl/ibex_alu.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/lowrisc_ibex/rtl/ibex_compressed_decoder.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/vendor/lowrisc_ibex/rtl/ibex_compressed_decoder.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/lowrisc_ibex/rtl/ibex_controller.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/vendor/lowrisc_ibex/rtl/ibex_controller.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/lowrisc_ibex/rtl/ibex_core.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/vendor/lowrisc_ibex/rtl/ibex_core.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/lowrisc_ibex/rtl/ibex_cs_registers.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/vendor/lowrisc_ibex/rtl/ibex_cs_registers.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/lowrisc_ibex/rtl/ibex_decoder.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/vendor/lowrisc_ibex/rtl/ibex_decoder.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/lowrisc_ibex/rtl/ibex_ex_block.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/vendor/lowrisc_ibex/rtl/ibex_ex_block.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/lowrisc_ibex/rtl/ibex_fetch_fifo.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/vendor/lowrisc_ibex/rtl/ibex_fetch_fifo.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/lowrisc_ibex/rtl/ibex_id_stage.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/vendor/lowrisc_ibex/rtl/ibex_id_stage.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/lowrisc_ibex/rtl/ibex_if_stage.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/vendor/lowrisc_ibex/rtl/ibex_if_stage.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/lowrisc_ibex/rtl/ibex_load_store_unit.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/vendor/lowrisc_ibex/rtl/ibex_load_store_unit.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/lowrisc_ibex/rtl/ibex_multdiv_fast.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/vendor/lowrisc_ibex/rtl/ibex_multdiv_fast.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/lowrisc_ibex/rtl/ibex_multdiv_slow.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/vendor/lowrisc_ibex/rtl/ibex_multdiv_slow.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/lowrisc_ibex/rtl/ibex_pmp.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/vendor/lowrisc_ibex/rtl/ibex_pmp.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/lowrisc_ibex/rtl/ibex_prefetch_buffer.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/vendor/lowrisc_ibex/rtl/ibex_prefetch_buffer.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/lowrisc_ibex/rtl/ibex_register_file_latch.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/vendor/lowrisc_ibex/rtl/ibex_register_file_latch.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/top_earlgrey/rtl/padctl.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/top_earlgrey/rtl/padctl.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/top_earlgrey/ip/pinmux/rtl/autogen/pinmux_reg_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/top_earlgrey/ip/pinmux/rtl/autogen/pinmux_reg_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/pinmux/rtl/pinmux.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/pinmux/rtl/pinmux.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/top_earlgrey/ip/pinmux/rtl/autogen/pinmux_reg_top.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/top_earlgrey/ip/pinmux/rtl/autogen/pinmux_reg_top.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim/rtl/prim_arbiter.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim/rtl/prim_arbiter.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/vendor/lowrisc_ibex/examples/fpga/artya7-100/rtl/prim_clock_gating.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/vendor/lowrisc_ibex/examples/fpga/artya7-100/rtl/prim_clock_gating.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim/rtl/prim_clock_inverter.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim/rtl/prim_clock_inverter.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim/rtl/prim_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim/rtl/prim_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim/abstract/prim_clock_mux2.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim/rtl/prim_fifo_async.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim/rtl/prim_fifo_async.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim/rtl/prim_fifo_sync.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim/rtl/prim_fifo_sync.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim/rtl/prim_filter_ctr.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim/rtl/prim_filter_ctr.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim/abstract/prim_flash.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim/rtl/prim_flop_2sync.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim/rtl/prim_flop_2sync.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim_generic/rtl/prim_generic_clock_mux2.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim_generic/rtl/prim_generic_clock_mux2.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim_generic/rtl/prim_generic_flash.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim_generic/rtl/prim_generic_flash.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim_generic/rtl/prim_generic_ram_1p.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim_generic/rtl/prim_generic_ram_1p.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim_generic/rtl/prim_generic_ram_2p.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim_generic/rtl/prim_generic_ram_2p.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim_generic/rtl/prim_generic_rom.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim_generic/rtl/prim_generic_rom.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim/rtl/prim_intr_hw.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim/rtl/prim_intr_hw.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim/rtl/prim_packer.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim/rtl/prim_packer.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim/rtl/prim_pulse_sync.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim/rtl/prim_pulse_sync.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim/abstract/prim_ram_1p.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim/abstract/prim_ram_2p.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim/rtl/prim_ram_2p_adv.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim/rtl/prim_ram_2p_adv.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim/abstract/prim_rom.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim/rtl/prim_secded_39_32_dec.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim/rtl/prim_secded_39_32_dec.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim/rtl/prim_secded_39_32_enc.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim/rtl/prim_secded_39_32_enc.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim/rtl/prim_sram_arbiter.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim/rtl/prim_sram_arbiter.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim/rtl/prim_subreg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim/rtl/prim_subreg.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim/rtl/prim_subreg_ext.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim/rtl/prim_subreg_ext.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim_xilinx/rtl/prim_xilinx_clock_mux2.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim_xilinx/rtl/prim_xilinx_clock_mux2.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim_xilinx/rtl/prim_xilinx_ram_2p.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim_xilinx/rtl/prim_xilinx_ram_2p.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/prim_xilinx/rtl/prim_xilinx_rom.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/prim_xilinx/rtl/prim_xilinx_rom.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/rv_core_ibex/rtl/rv_core_ibex.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/rv_core_ibex/rtl/rv_core_ibex.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/rv_dm/rtl/rv_dm.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/rv_dm/rtl/rv_dm.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/top_earlgrey/ip/rv_plic/rtl/autogen/rv_plic_reg_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/top_earlgrey/ip/rv_plic/rtl/autogen/rv_plic_reg_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/top_earlgrey/ip/rv_plic/rtl/autogen/rv_plic.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/top_earlgrey/ip/rv_plic/rtl/autogen/rv_plic.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/rv_plic/rtl/rv_plic_gateway.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/rv_plic/rtl/rv_plic_gateway.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/top_earlgrey/ip/rv_plic/rtl/autogen/rv_plic_reg_top.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/top_earlgrey/ip/rv_plic/rtl/autogen/rv_plic_reg_top.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/rv_plic/rtl/rv_plic_target.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/rv_plic/rtl/rv_plic_target.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/rv_timer/rtl/rv_timer_reg_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/rv_timer/rtl/rv_timer_reg_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/rv_timer/rtl/rv_timer.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/rv_timer/rtl/rv_timer.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/rv_timer/rtl/rv_timer_reg_top.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/rv_timer/rtl/rv_timer_reg_top.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/hmac/rtl/sha2.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/hmac/rtl/sha2.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/hmac/rtl/sha2_pad.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/hmac/rtl/sha2_pad.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/spi_device/rtl/spi_device_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/spi_device/rtl/spi_device_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/spi_device/rtl/spi_device_reg_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/spi_device/rtl/spi_device_reg_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/spi_device/rtl/spi_device.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/spi_device/rtl/spi_device.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/spi_device/rtl/spi_device_reg_top.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/spi_device/rtl/spi_device_reg_top.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/spi_device/rtl/spi_fwm_rxf_ctrl.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/spi_device/rtl/spi_fwm_rxf_ctrl.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/spi_device/rtl/spi_fwm_txf_ctrl.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/spi_device/rtl/spi_fwm_txf_ctrl.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/spi_device/rtl/spi_fwmode.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/spi_device/rtl/spi_fwmode.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/rv_timer/rtl/timer_core.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/rv_timer/rtl/timer_core.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/top_earlgrey/ip/xbar/rtl/autogen/tl_main_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/top_earlgrey/ip/xbar/rtl/autogen/tl_main_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/rv_dm/rtl/tlul_adapter_host.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/rv_dm/rtl/tlul_adapter_host.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/tlul/rtl/tlul_adapter_reg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/tlul/rtl/tlul_adapter_reg.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/tlul/rtl/tlul_adapter_sram.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/tlul/rtl/tlul_adapter_sram.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/tlul/rtl/tlul_err.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/tlul/rtl/tlul_err.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/tlul/rtl/tlul_err_resp.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/tlul/rtl/tlul_err_resp.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/tlul/rtl/tlul_fifo_sync.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/tlul/rtl/tlul_fifo_sync.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/tlul/rtl/tlul_socket_1n.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/tlul/rtl/tlul_socket_1n.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/tlul/rtl/tlul_socket_m1.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/tlul/rtl/tlul_socket_m1.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/top_earlgrey/rtl/autogen/top_earlgrey.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/top_earlgrey/rtl/autogen/top_earlgrey.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/uart/rtl/uart_reg_pkg.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/uart/rtl/uart_reg_pkg.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/uart/rtl/uart.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/uart/rtl/uart.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/uart/rtl/uart_core.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/uart/rtl/uart_core.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/uart/rtl/uart_reg_top.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/uart/rtl/uart_reg_top.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/uart/rtl/uart_rx.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/uart/rtl/uart_rx.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/ip/uart/rtl/uart_tx.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/ip/uart/rtl/uart_tx.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/top_earlgrey/ip/xbar/rtl/autogen/xbar_main.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/top_earlgrey/ip/xbar/rtl/autogen/xbar_main.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/hw/top_earlgrey/rtl/top_earlgrey_artys7.sv">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../opentitan_rtl/hw/top_earlgrey/rtl/top_earlgrey_artys7.sv"/>
+          <Attr Name="ImportTime" Val="1572900610"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="top_earlgrey_artys7"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="top_earlgrey_artys7"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="TransportPathDelay" Val="0"/>
+        <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SelectedSimModel" Val="rtl"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="utils_1" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+      <Filter Type="Utils"/>
+      <Config>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="Questa">
+      <Option Name="Description" Val="Questa Advanced Simulator"/>
+    </Simulator>
+    <Simulator Name="Riviera">
+      <Option Name="Description" Val="Riviera-PRO Simulator"/>
+    </Simulator>
+    <Simulator Name="ActiveHDL">
+      <Option Name="Description" Val="Active-HDL Simulator"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="11">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a100tfgg484-2" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2019"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a100tfgg484-2" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2019">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design" EnableStepBool="1"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2019"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+  </Runs>
+  <Board/>
+  <DashboardSummary Version="1" Minor="0">
+    <Dashboards>
+      <Dashboard Name="default_dashboard">
+        <Gadgets>
+          <Gadget Name="drc_1" Type="drc" Version="1" Row="2" Column="0">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_drc_0 "/>
+          </Gadget>
+          <Gadget Name="methodology_1" Type="methodology" Version="1" Row="2" Column="1">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_methodology_0 "/>
+          </Gadget>
+          <Gadget Name="power_1" Type="power" Version="1" Row="1" Column="0">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_power_0 "/>
+          </Gadget>
+          <Gadget Name="timing_1" Type="timing" Version="1" Row="0" Column="1">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_route_report_timing_summary_0 "/>
+          </Gadget>
+          <Gadget Name="utilization_1" Type="utilization" Version="1" Row="0" Column="0">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="synth_1#synth_1_synth_report_utilization_0 "/>
+            <GadgetParam Name="RUN.STEP" Type="string" Value="synth_design"/>
+            <GadgetParam Name="RUN.TYPE" Type="string" Value="synthesis"/>
+          </Gadget>
+          <Gadget Name="utilization_2" Type="utilization" Version="1" Row="1" Column="1">
+            <GadgetParam Name="REPORTS" Type="string_list" Value="impl_1#impl_1_place_report_utilization_0 "/>
+          </Gadget>
+        </Gadgets>
+      </Dashboard>
+      <CurrentDashboard>default_dashboard</CurrentDashboard>
+    </Dashboards>
+  </DashboardSummary>
+</Project>
